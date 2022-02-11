@@ -1,0 +1,91 @@
+/* keyframes */
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade_out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* transisions */
+
+.ts-ease-out-fast {
+    transition: 0.3s ease-out !important;
+}
+
+.ts-ease-out-slow {
+    transition: 5s ease-out !important;
+}
+
+.ts-ease-out-extra-slow {
+    transition: 10s ease-out !important;
+}
+
+.ts-opacity {
+    transition: fadeIn 2s ease-out !important;
+}
+
+.ts-none {
+    transition: none !important;
+}
+
+/* transform */
+
+.ts-left {
+    transform: translateX(100%) !important;
+}
+
+.ts-right {
+    transform: translateX(-100%) !important;
+}
+
+.ts-top {
+    transform: translateY(100%) !important;
+}
+
+.ts-bottom {
+    transform: translateY(-100%) !important;
+}
+
+.ts-45 {
+    transform: rotate(45deg) !important;
+}
+
+/* image */
+
+.h-saturate {
+    filter: saturate(0%) !important;
+}
+
+.h-saturate:hover {
+    filter: saturate(100%) !important;
+}
+
+/* hide */
+
+.ts-hide-top {
+    transform: translateY(-100%) !important;
+}
+
+/* fade */
+
+.a-fade-in {
+    animation: fade_in 0.5s linear;
+}
+
+.a-fade-out {
+    animation: fade_out 0.5s linear;
+}

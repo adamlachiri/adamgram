@@ -1,0 +1,210 @@
+/* opacity */
+
+.o-invisible {
+    opacity: 0 !important;
+}
+
+.o-1 {
+    opacity: 0.1 !important;
+}
+
+.o-2 {
+    opacity: 0.2 !important;
+}
+
+.o-3 {
+    opacity: 0.3 !important;
+}
+
+.o-4 {
+    opacity: 0.4 !important;
+}
+
+.o-5 {
+    opacity: 0.5 !important;
+}
+
+.o-6 {
+    opacity: 0.6 !important;
+}
+
+.o-7 {
+    opacity: 0.7 !important;
+}
+
+.o-8 {
+    opacity: 0.8 !important;
+}
+
+.o-9 {
+    opacity: 0.9 !important;
+}
+
+.o-visible {
+    opacity: 1 !important;
+}
+
+/* overflow */
+
+.ov-hidden {
+    overflow: hidden !important;
+}
+
+.ov-x-hidden {
+    overflow-x: hidden !important;
+}
+
+.ov-y-hidden {
+    overflow-y: hidden !important;
+}
+
+.ov-scroll {
+    overflow: scroll !important;
+}
+
+.ov-x-scroll {
+    overflow-x: scroll !important;
+}
+
+.ov-y-scroll {
+    overflow-y: scroll !important;
+}
+
+/* hover */
+
+.h-pointer {
+    cursor: pointer !important;
+}
+
+.h-opacity {
+    opacity: 0.7 !important;
+}
+
+.h-opacity:hover {
+    opacity: 1 !important;
+    cursor: pointer !important;
+}
+
+.h-scale:hover {
+    transform: scale(1.1) !important;
+}
+
+.h-active:hover {
+    opacity: 1 !important;
+}
+
+.h-hand:hover {
+    cursor: grab !important;
+}
+
+.h-shadow:hover {
+    cursor: pointer;
+    box-shadow: 0 0 1rem 0rem rgba(0, 0, 0, 0.514) !important;
+}
+
+/* active */
+
+.a-grab:active {
+    cursor: grabbing !important;
+}
+
+.a-hand:active {
+    cursor: grab !important;
+}
+
+
+/* box */
+
+.b-shadow {
+    box-shadow: 0 0 10px 0rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.bs-content {
+    box-sizing: content-box !important;
+}
+
+/* z index */
+
+.z-1 {
+    z-index: 1 !important;
+}
+
+.z-2 {
+    z-index: 2 !important;
+}
+
+.z-3 {
+    z-index: 3 !important;
+}
+
+.z-4 {
+    z-index: 4 !important;
+}
+
+.z-5 {
+    z-index: 5 !important;
+}
+
+/* focus */
+
+.f-b-shadow:focus {
+    box-shadow: 0 0 0.2rem var(--black) !important;
+}
+
+.f-b-shadow-warning:focus {
+    box-shadow: 0 0 0.2rem var(--warning) !important;
+}
+
+.f-b-shadow-alert:focus {
+    box-shadow: 0 0 0.2rem var(--alert) !important;
+}
+
+.f-b-shadow-link:focus {
+    box-shadow: 0 0 0.2rem var(--link) !important;
+}
+
+.f-b-black:focus {
+    border: solid black 1px !important;
+}
+
+/* list decoration */
+
+.l-lower-alpha {
+    list-style-type: lower-alpha !important;
+}
+
+.l-square {
+    list-style-type: square !important;
+}
+
+.l-circle {
+    list-style-type: circle !important;
+}
+
+/* image */
+
+.img-fluid {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+/* video */
+
+.v-cover {
+    object-fit: cover !important;
+}
+
+.v-fluid {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.v-background {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+}

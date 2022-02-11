@@ -1,0 +1,41 @@
+:root {
+    /* colors */
+    --primary: #2379c0;
+    --secondary: #0099ff;
+
+    /* html */
+    --font-lg-size: 14px;
+    --font-md-size: 16px;
+    --font-sm-size: 3vw;
+
+    /* nav */
+    --nav-height: 5rem;
+
+    /* success */
+    --success: rgb(122, 196, 122);
+
+    /* alert */
+    --alert: rgb(233, 113, 113);
+
+    /* warning */
+    --warning: rgb(207, 167, 92);
+
+    /* link */
+    --link: #0077ff;
+
+    /* darkblue */
+    --darkblue: #1a202c;
+
+    /* standard */
+    --white: white;
+    --gray-1: rgb(240, 240, 240);
+    --gray-2: rgb(220, 220, 220);
+    --gray-3: rgb(150, 150, 150);
+    --gray-4: rgb(100, 100, 100);
+    --gray-5: rgb(50, 50, 50);
+    --black: rgb(20, 20, 20);
+
+    /* transparent */
+    --light-transparent: rgba(255, 255, 255, 0.8);
+    --dark-transparent: rgba(0, 0, 0, 0.8);
+}

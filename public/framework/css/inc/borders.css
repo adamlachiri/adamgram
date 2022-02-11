@@ -1,0 +1,114 @@
+.b-none {
+    border: none !important;
+}
+
+/* colors */
+
+.b-white {
+    border-color: white !important;
+}
+
+.b-gray {
+    border-color: rgb(199, 199, 199) !important;
+}
+
+.b-black {
+    border-color: black !important;
+}
+
+.b-success {
+    border-color: var(--success) !important;
+}
+
+.b-alert {
+    border-color: var(--alert) !important;
+}
+
+.b-warning {
+    border-color: var(--warning) !important;
+}
+
+.b-primary {
+    border-color: var(--primary) !important;
+}
+
+.b-secondary {
+    border-color: var(--secondary) !important;
+}
+
+
+/* styles */
+
+.b-full {
+    border: solid 0.1rem;
+}
+
+.b-left {
+    border-left: solid 0.1rem;
+}
+
+.b-right {
+    border-right: solid 0.1rem;
+}
+
+.b-top {
+    border-top: solid 0.1rem;
+}
+
+.b-bottom {
+    border-bottom: solid 0.1rem;
+}
+
+/* classics */
+
+.b-full-gray {
+    border: solid 0.1rem var(--gray-3) !important;
+}
+
+.b-full-black {
+    border: solid 0.1rem var(--black) !important;
+}
+
+.b-full-white {
+    border: solid 0.1rem var(--white) !important;
+}
+
+.b-full-primary {
+    border: solid 0.1rem var(--primary) !important;
+}
+
+/* hovers */
+
+.h-b-left:hover {
+    border-left: solid 0.1rem;
+}
+
+.h-b-right:hover {
+    border-right: solid 0.1rem;
+}
+
+.h-b-top:hover {
+    border-left: solid 0.1rem;
+}
+
+.h-b-bottom:hover {
+    border-left: solid 0.1rem;
+}
+
+.h-b-full:hover {
+    border: solid 0.1rem;
+}
+
+/* radius */
+
+.b-small {
+    border-radius: 0.5rem !important;
+}
+
+.b-medium {
+    border-radius: 25% !important;
+}
+
+.b-circle {
+    border-radius: 50% !important;
+}

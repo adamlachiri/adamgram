@@ -1,0 +1,100 @@
+/* sizes */
+
+.btn-small {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.btn-medium {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.btn-large {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
+
+/* default */
+
+.btn {
+    display: inline !important;
+    cursor: pointer !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    text-transform: capitalize !important;
+    text-align: center !important;
+    border: solid 1px !important;
+    border-radius: 0.3rem !important;
+    transition: ease-out 0.3s !important;
+    white-space: nowrap !important;
+    font-weight: bold !important;
+}
+
+
+/* success */
+
+.btn-success {
+    background-color: var(--success) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+/* warning */
+
+.btn-warning {
+    background-color: var(--warning) !important;
+    color: rgb(230, 230, 230) !important;
+}
+
+/* alert */
+
+.btn-alert {
+    background-color: var(--alert) !important;
+    color: rgb(235, 235, 235) !important;
+}
+
+/* gray */
+.btn-gray {
+    background-color: var(--gray-5) !important;
+    color: var(--gray-1) !important;
+    border-color: var(--gray-5) !important;
+}
+
+.btn-gray:hover {
+    background-color: var(--black) !important;
+    color: var(--gray-1) !important;
+}
+
+/* primary */
+
+.btn-primary {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+    color: var(--white) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary) !important;
+    border-color: var(--secondary) !important;
+}
+
+/* secondary */
+
+.btn-secondary {
+    background-color: transparent !important;
+    color: var(--white) !important;
+    border-color: var(--white) !important;
+}
+
+.btn-secondary:hover {
+    background-color: var(--white) !important;
+    color: var(--primary) !important;
+}
+
+/* btn transparent */
+
+.btn-transparent {
+    background-color: transparent !important;
+    color: var(--black) !important;
+    border-color: var(--black) !important;
+}

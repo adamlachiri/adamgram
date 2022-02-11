@@ -1,0 +1,251 @@
+/* navbar dropdown */
+
+.js-nav-dropdown-btn {
+    cursor: pointer;
+}
+
+.js-nav-dropdown-box {
+    position: relative;
+    transition: ease-out 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+/* dropdown */
+
+.js-dropdown-btn {
+    position: relative;
+    cursor: pointer;
+}
+
+.js-dropdown-box {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transition: ease-out 0.3s;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+}
+
+/* loading */
+
+.js-loading {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--gray-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.js-loading img {
+    height: 4rem;
+}
+
+/* carousel lg */
+
+.js-carousel-lg {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.js-carousel-lg .js-slider {
+    display: inline-flex;
+}
+
+.js-carousel-lg .js-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+.js-carousel-lg .js-next-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.js-carousel-lg .js-prev-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+
+.js-carousel-lg .js-next {
+    cursor: pointer;
+}
+
+.js-carousel-lg .js-prev {
+    cursor: pointer;
+}
+
+.js-carousel-lg .js-pagination-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.js-carousel-lg .js-pagination-btn {
+    cursor: pointer;
+    background: gray;
+}
+
+/* carousel fade */
+
+.js-carousel-fade {
+    position: relative;
+}
+
+.js-carousel-fade .js-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+
+.js-carousel-fade .js-next-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.js-carousel-fade .js-prev-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+
+}
+
+.js-carousel-fade .js-next {
+    cursor: pointer;
+}
+
+.js-carousel-fade .js-prev {
+    cursor: pointer;
+}
+
+.js-carousel-fade .js-pagination-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.js-carousel-fade .js-pagination-btn {
+    cursor: pointer;
+    background: gray;
+}
+
+/* carousel */
+
+.js-carousel {
+    display: flex;
+}
+
+.js-carousel .js-slider-container {
+    overflow-x: hidden;
+}
+
+.js-carousel .js-slider {
+    display: inline-flex;
+    align-items: center;
+}
+
+.js-carousel .js-item {
+    margin: 0 3rem;
+}
+
+.js-carousel .js-btn-container {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.js-carousel .js-next {
+    cursor: pointer;
+}
+
+.js-carousel .js-prev {
+    cursor: pointer;
+}
+
+/* zoom */
+
+.js-zoom {
+    cursor: pointer;
+}
+
+.js-zoom-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 999;
+    padding: 0 3rem;
+    text-align: end;
+}
+
+.js-zoom-box .js-close {
+    margin: 2rem 0;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.js-zoom-box .js-close:hover {
+    opacity: 1;
+}
+
+.js-zoom-box .js-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.js-zoom-box img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+/* submit */
+
+.js-submit {
+    cursor: pointer;
+}
+
+/* toggle box */
+
+.js-open {
+    cursor: pointer;
+}
+
+.js-close {
+    cursor: pointer;
+}

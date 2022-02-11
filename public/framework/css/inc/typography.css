@@ -1,0 +1,284 @@
+/* fonts imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font family */
+
+.t-josefin {
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.t-dancing {
+    font-family: 'Dancing Script', cursive !important;
+}
+
+.t-montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.t-lato {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.t-roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.t-fugaz {
+    font-family: 'Fugaz One', cursive !important;
+}
+
+.t-philosopher {
+    font-family: 'Philosopher', sans-serif !important;
+}
+
+.t-open {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* style & decoration */
+
+.t-italic {
+    font-style: italic !important;
+}
+
+.t-uppercase {
+    text-transform: uppercase !important;
+}
+
+.t-lowercase {
+    text-transform: lowercase !important;
+}
+
+.t-capitalize {
+    text-transform: capitalize !important;
+}
+
+.t-underline {
+    text-decoration: underline !important;
+}
+
+.t-through {
+    text-decoration: line-through !important;
+}
+
+.t-bold {
+    font-weight: bold !important;
+}
+
+.t-thin {
+    font-weight: lighter !important;
+}
+
+.t-shadow {
+    text-shadow: 0 0 0.3rem black !important;
+}
+
+.t-dots {
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.t-normal {
+    text-transform: none !important;
+}
+
+/* positioning */
+
+.t-center {
+    text-align: center !important;
+}
+
+.t-start {
+    text-align: start !important;
+}
+
+.t-end {
+    text-align: end !important;
+}
+
+.t-no-wrap {
+    white-space: nowrap !important;
+}
+
+.t-wrap {
+    white-space: wrap !important;
+}
+
+/* colors */
+
+.t-white {
+    color: var(--white) !important;
+}
+
+.t-gray-1 {
+    color: var(--gray-1) !important;
+}
+
+.t-gray-2 {
+    color: var(--gray-2) !important;
+}
+
+.t-gray-3 {
+    color: var(--gray-3) !important;
+}
+
+.t-gray-4 {
+    color: var(--gray-4) !important;
+}
+
+.t-gray-5 {
+    color: var(--gray-5) !important;
+}
+
+.t-black {
+    color: var(--black) !important;
+}
+
+.t-success {
+    color: var(--success) !important;
+}
+
+.t-alert {
+    color: var(--alert) !important;
+}
+
+.t-warning {
+    color: var(--warning) !important;
+}
+
+.t-link {
+    color: var(--link) !important;
+}
+
+.t-primary {
+    color: var(--primary) !important;
+}
+
+.t-secondary {
+    color: var(--secondary) !important;
+}
+
+/* hovers */
+
+.h-t-white:hover {
+    cursor: pointer;
+    color: var(--white) !important;
+}
+
+.h-t-gray-1:hover {
+    cursor: pointer;
+    color: var(--gray-1) !important;
+}
+
+.h-t-gray-2:hover {
+    cursor: pointer;
+    color: var(--gray-2) !important;
+}
+
+.h-t-gray-3:hover {
+    cursor: pointer;
+    color: var(--gray-3) !important;
+}
+
+.h-t-gray-4:hover {
+    cursor: pointer;
+    color: var(--gray-4) !important;
+}
+
+.h-t-gray-5:hover {
+    cursor: pointer;
+    color: var(--gray-5) !important;
+}
+
+.h-t-black:hover {
+    cursor: pointer;
+    color: var(--black) !important;
+}
+
+.h-t-success:hover {
+    cursor: pointer;
+    color: var(--success) !important;
+}
+
+.h-t-alert:hover {
+    cursor: pointer;
+    color: var(--alert) !important;
+}
+
+.h-t-warning:hover {
+    cursor: pointer;
+    color: var(--warning) !important;
+}
+
+.h-t-link:hover {
+    cursor: pointer;
+    color: var(--link) !important;
+}
+
+.h-t-primary:hover {
+    cursor: pointer;
+    color: var(--primary) !important;
+}
+
+.h-t-secondary:hover {
+    cursor: pointer;
+    color: var(--secondary) !important;
+}
+
+.h-underline:hover {
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+.h-spacing:hover {
+    cursor: pointer;
+    letter-spacing: 0.1rem !important;
+}
+
+/* font size */
+
+.t-1 {
+    font-size: 0.8rem !important;
+}
+
+.t-2 {
+    font-size: 1rem !important;
+}
+
+.t-3 {
+    font-size: 1.25rem !important;
+}
+
+.t-4 {
+    font-size: 1.75rem !important;
+}
+
+.t-5 {
+    font-size: 3rem !important;
+}
+
+.t-6 {
+    font-size: 5rem !important;
+}
+
+/* letter spacing */
+
+.l-1 {
+    letter-spacing: normal !important;
+}
+
+.l-2 {
+    letter-spacing: 0.1rem !important;
+}
+
+.l-3 {
+    letter-spacing: 0.2rem !important;
+}

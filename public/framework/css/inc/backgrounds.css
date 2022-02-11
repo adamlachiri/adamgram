@@ -1,0 +1,186 @@
+/* repetition */
+
+.bg-no-repeat {
+    background-repeat: no-repeat !important;
+}
+
+/* size */
+
+.bg-cover {
+    background-size: 100% !important;
+}
+
+.bg-contain {
+    background-size: contain !important;
+}
+
+/* position */
+
+.bg-bottom {
+    background-position: bottom !important;
+}
+
+.bg-top {
+    background-position: top !important;
+}
+
+.bg-left {
+    background-position: left !important;
+}
+
+.bg-right {
+    background-position: right !important;
+}
+
+.bg-center {
+    background-position: center !important;
+}
+
+.bg-fixed {
+    background-attachment: fixed !important;
+}
+
+/* colors */
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.bg-gray-1 {
+    background-color: var(--gray-1) !important;
+}
+
+.bg-gray-2 {
+    background-color: var(--gray-2) !important;
+}
+
+.bg-gray-3 {
+    background-color: var(--gray-3) !important;
+}
+
+.bg-gray-4 {
+    background-color: var(--gray-4) !important;
+}
+
+.bg-gray-5 {
+    background-color: var(--gray-5) !important;
+}
+
+.bg-black {
+    background-color: var(--black) !important;
+}
+
+.bg-success {
+    background-color: var(--success) !important;
+}
+
+.bg-alert {
+    background-color: var(--alert) !important;
+}
+
+.bg-warning {
+    background-color: var(--warning) !important;
+}
+
+.bg-link {
+    background-color: var(--link) !important;
+}
+
+.bg-darkblue {
+    background-color: var(--darkblue) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
+.bg-light-transparent {
+    background: var(--light-transparent) !important;
+}
+
+.bg-dark-transparent {
+    background: var(--dark-transparent) !important;
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+/* hovers */
+
+.h-bg-white:hover {
+    background-color: var(--white) !important;
+}
+
+.h-bg-gray-1:hover {
+    background-color: var(--gray-1) !important;
+}
+
+.h-bg-gray-2:hover {
+    background-color: var(--gray-2) !important;
+}
+
+.h-bg-gray-3:hover {
+    background-color: var(--gray-3) !important;
+}
+
+.h-bg-gray-4:hover {
+    background-color: var(--gray-4) !important;
+}
+
+.h-bg-gray-5:hover {
+    background-color: var(--gray-5) !important;
+}
+
+.h-bg-black:hover {
+    background-color: var(--black) !important;
+}
+
+.h-bg-success:hover {
+    background-color: var(--success) !important;
+}
+
+.h-bg-alert:hover {
+    background-color: var(--alert) !important;
+}
+
+.h-bg-warning:hover {
+    background-color: var(--warning) !important;
+}
+
+.h-bg-link:hover {
+    background-color: var(--link) !important;
+}
+
+.h-bg-primary:hover {
+    background-color: var(--primary) !important;
+}
+
+.h-bg-secondary:hover {
+    background-color: var(--secondary) !important;
+}
+
+/* others */
+
+.bg-classic {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* animation */
+
+.h-bg-zoom {
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 100% !important;
+}
+
+.h-bg-zoom:hover {
+    background-size: 125% 125% !important;
+    transition: ease-out 10s !important;
+}
