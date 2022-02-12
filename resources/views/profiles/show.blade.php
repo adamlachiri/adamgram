@@ -142,7 +142,7 @@
             document.getElementById('image').src = this.dataset.image;
             document.getElementById('caption').innerHTML = this.dataset.caption;
             document.getElementById('likes').innerHTML = this.dataset.likes;
-            document.getElementById('edit').href = '/post/'+ this.dataset.id + '/edit';
+            document.getElementById('edit').href = 'post/'+ this.dataset.id + '/edit';
             ">
             </div>
         </div>

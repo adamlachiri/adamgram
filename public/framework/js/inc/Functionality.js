@@ -123,10 +123,14 @@ export default class Functionality {
 
         // html
         const loading = document.querySelector(".js-loading");
+        const delay = 300;
 
         // exe
         window.addEventListener("load", function () {
-            loading.classList.add("d-none");
+            loading.style.animation = delay + "ms fade_out linear forwards"
+            setTimeout(() => {
+                loading.classList.add("d-none");
+            }, delay);
         })
     }
 

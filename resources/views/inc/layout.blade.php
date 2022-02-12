@@ -22,7 +22,12 @@
 
     <!-- loading -->
     <section class="js-loading bg-gray-1">
-        <img src="framework/img/loading.gif" style="width: 5rem" alt="">
+        <div class="t-primary t-center">
+            <h1 class="t-bold t-dancing t-5">
+                {{config('app.name')}}
+            </h1>
+            <p class="pt-3">Loading . . .</p>
+        </div>
     </section>
 
     <!-- navbar -->

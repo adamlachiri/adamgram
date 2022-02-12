@@ -1,3 +1,3 @@
 Author: Adam Lachiri
 <br>
-Version: 1.0
+Version: 1.1

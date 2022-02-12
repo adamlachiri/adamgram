@@ -21,9 +21,9 @@
                 document.getElementById('image').src = this.dataset.image;
                 document.getElementById('caption').innerHTML = this.dataset.caption;
                 document.getElementById('username').innerHTML = this.dataset.username;
-                document.getElementById('username').href = '/profile/' + this.dataset.user_id;
+                document.getElementById('username').href = 'profile/' + this.dataset.user_id;
                 document.getElementById('profile-image').src = this.dataset.profile_image;
-                document.getElementById('caption-username').href ='/profile/' + this.dataset.user_id;
+                document.getElementById('caption-username').href ='profile/' + this.dataset.user_id;
                 document.getElementById('caption-username').innerHTML =this.dataset.username;
 
                 ">

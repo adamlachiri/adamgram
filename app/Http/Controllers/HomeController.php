@@ -28,12 +28,14 @@ class HomeController extends Controller
         $masters = Auth::user()->masters;
 
         // get masters posts
-        foreach ($masters as  $follow) {
+        foreach ($masters as $follow) {
             array_push($feed, ...$follow->master->posts);
         }
 
         // insert feed
         $data["feed"]  = collect($feed)->sortByDesc("created_at");
+
+        // dd($data["feed"][0]);
 
         // serve
         return view('home', $data);
