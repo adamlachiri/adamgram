@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Like;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
@@ -20,8 +21,8 @@ class LikeController extends Controller
     {
 
         // check if post isn't liked already
-        if (session("liked_posts_ids")->contains($post_id)) {
-            Redirect::back();
+        if (Like::where("user_id", "=", Auth::user()->id)->where("post_id", "=", $post_id)->count() > 0) {
+            return Redirect::back();
         }
 
         // prepare data
@@ -33,9 +34,6 @@ class LikeController extends Controller
 
         // create like
         Like::create($data);
-
-        // alter session
-        session("liked_posts_ids")->push($post_id);
 
         // redirect
         return Redirect::back();
@@ -49,15 +47,6 @@ class LikeController extends Controller
         // destroy
         if ($like) {
             $like->delete();
-        }
-
-
-        // alter session
-        foreach (session("liked_posts_ids") as $key => $value) {
-            if ($value == $post_id) {
-                session("liked_posts_ids")->pull($key);
-                break;
-            }
         }
 
         // redirect

@@ -53,7 +53,7 @@
             <div class="p-2">
                 <div class="d-flex a-center">
                     <!-- heart -->
-                    @if(Session::has('liked_posts_ids') && session('liked_posts_ids')->contains($post->id))
+                    @if($post->is_liked(Auth::user()->id))
                     <form action="like/{{ $post->id }}" method="post">
                         @csrf
                         @method('delete')

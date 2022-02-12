@@ -28,4 +28,11 @@ class Post extends Model
     {
         return $this->hasMany(Like::class);
     }
+
+    // is liked
+    public function is_liked($user_id)
+    {
+        // dd($this->likes()->where("user_id", "=", $user_id)->count() > 0);
+        return $this->likes()->where("user_id", "=", $user_id)->count() > 0;
+    }
 }
